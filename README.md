@@ -1,1 +1,1 @@
-# project-promo-q-module-1-team-2
+# Proyecto del módulo 1, equipo dos :)
