@@ -9,11 +9,12 @@
     
     
 }
+
 .nombre-header {
     background-color: #099d8d;
     width: 100vw;
     height: 60px;
-    position: sticky;
+
     align-items: center;
     padding-top: 7%;
     padding-left: 35%;
@@ -38,7 +39,7 @@
     color: white;
     font-size: 15px;
     font-family: 'Rubik', sans-serif;
-}
+} 
 .adaimg {
     width: 320px;
     height: 421px;
