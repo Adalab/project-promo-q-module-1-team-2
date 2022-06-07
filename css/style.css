@@ -1,13 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
+
 .cabeza {
     width: 100%;
     height: 421px;
     text-transform: uppercase;
-    
-    
+
+}
+
+.fixed {
+    position: fixed;
 }
 
 .nombre-header {
@@ -25,6 +31,7 @@
     font-family: 'Rubik', sans-serif;
 
 }
+
 .menu1 ul {
     display: flex;
     flex-direction: row;
@@ -39,7 +46,8 @@
     color: white;
     font-size: 15px;
     font-family: 'Rubik', sans-serif;
-} 
+}
+
 .adaimg {
     width: 320px;
     height: 421px;
@@ -47,48 +55,185 @@
     top: 0;
     z-index: -999;
 }
+
 .img2 {
     width: 100%;
     height: 100%;
 }
+
 a {
     text-decoration: none;
     color: white;
-    
+
 }
+
 a:hover {
     color: grey;
 }
 
-.footer{
+.equipo-blanco {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.equipo-blanco .team {
+    color: #14d9c4;
+    text-transform: uppercase;
+    font-size: 24px;
+    /*poner font-family*/
+    text-align: center;
+    /*margin*/
+}
+
+.equipo-blanco .parrafo-equipo {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #54585a;
+}
+
+.margenes {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+
+}
+
+.gris {
+    background-color: #b8b8b9;
+    padding-top: 30px;
+    padding-bottom: 45px;
+
+}
+
+.gris .fortalezas {
+    display: flex;
+    flex-direction: column;
+}
+
+.gris .titulo-fortalezas {
+    color: #099d8d;
+    text-align: center;
+    font-size: 22px;
+    height: 45px;
+}
+
+.gris .parrafo-fortalezas {
+    color: #54585a;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gris .debilidades {
+    display: flex;
+    flex-direction: column;
+}
+
+.gris .titulo-debilidades {
+    color: #099d8d;
+    text-align: center;
+    font-size: 22px;
+    height: 45px;
+}
+
+.gris .parrafo-debilidades {
+    color: #54585a;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.quienes-somos {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.quienes-somos .titulo-quienes-somos {
+    color: #099d8d;
+    text-align: center;
+    font-size: 24px;
+    height: 45px;
+}
+
+.delia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-delia {
+    height: 180px;
+    width: 180px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    display: block;
+
+}
+
+.imagen-delia {
+    width: 100%;
+
+}
+
+.nombre {
+    height: 45px;
+
+}
+
+.parrafo-delia {
+    color: #54585a;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.rrss li {
+    display: inline-block;
+    color: #099d8d;
+    margin-left: 10px;
+    margin-bottom: 45px;
+
+}
+
+.rrss a {
+    text-decoration: none;
+    color: #099d8d;
+}
+
+.footer {
     text-align: center;
     background-color: white;
     border: 1px solid #b8b8b9;
     width: 100%;
-    
+
 }
 
-.copyright{
-    color:#b8b8b9
+.copyright {
+    color: #b8b8b9
 }
 
-.items-footer{
+.items-footer {
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
     list-style: none;
     padding: 0;
 
 
 }
 
-.items-footer > li{
+.items-footer>li {
     font-size: 14px;
-    color:#54585a;
+    color: #54585a;
 
 }
 
-.img-footer{
-   width: 110px;
-   height: auto;
+.img-footer {
+    width: 110px;
+    height: auto;
 }
