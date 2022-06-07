@@ -9,18 +9,21 @@
     
     
 }
-.nombre {
-    background-color: #099d8d;
+.container {
     width: 100vw;
     height: 60px;
+    box-sizing: border-box;
+    background-color: #099d8d;
     position: sticky;
     align-items: center;
+    opacity: 0.95;
+}
+.nombre {
+    
     padding-top: 7%;
     padding-left: 35%;
     font-size: 16px;
     color: white;
-    opacity: 0.95;
-    box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 
 }
