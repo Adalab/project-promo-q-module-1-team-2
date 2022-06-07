@@ -210,19 +210,25 @@ a:hover {
     background-color: white;
     border: 1px solid #b8b8b9;
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
 .copyright {
-    color: #b8b8b9
+    color: #b8b8b9;
+    padding-top: 20px;
+    
 }
 
 .items-footer {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     list-style: none;
-    padding: 0;
+    padding-top:20px;
+    padding-bottom:30px;
+    font-weight:600;
 
 
 }
@@ -230,10 +236,12 @@ a:hover {
 .items-footer>li {
     font-size: 14px;
     color: #54585a;
+   line-height: 20px;
 
 }
 
 .img-footer {
     width: 110px;
     height: auto;
+    padding-bottom: 20px;
 }
