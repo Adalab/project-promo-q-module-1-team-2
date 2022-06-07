@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,25 +8,34 @@
       src="https://kit.fontawesome.com/37bd59997a.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>Adavengers</title>
   </head>
 
   <body>
-    <header>
-      <h1>Nombre del grupo</h1>
-      <nav>
+    <header class="cabeza">
+      <div class="nombre">Adavengers</div>
+      <nav class="menu1">
         <ul>
-          <li>Equipo</li>
-          <li>Quienes somos</li>
-          <li>Contacto</li>
+          <li id="equipo"><a href="./index.html#equipo">Equipo</a></li>
+          <li id="quienes"><a href="./index.html#quienes">Quienes somos</a></li>
+          <li id="contacto">
+            <a href="./contacto.html" target="_blank">Contacto</a>
+          </li>
         </ul>
       </nav>
+      <img src="imagenes/imagen1.webp" alt="adavengers" class="adaimg" />
     </header>
 
     <main>
       <h3>titulo segundo</h3>
-      <section>
+      <section id="equipo">
         <h2>Equipo</h2>
         <p>
           Sobre el equipo. Lorem ipsum dolor sit, amet consectetur adipisicing
@@ -55,7 +64,7 @@
           </p>
         </article>
       </section>
-      <section>
+      <section id="quienes">
         <h2>Quienes Somos</h2>
         <article>
           <img /> imagen de cada una<img />
