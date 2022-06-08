@@ -30,25 +30,31 @@
     font-family: 'Rubik', sans-serif;
 
 }
-
+.menu {
+    width: 100vw;
+    display: flex;
+    
+}
 .menu1 ul {
+    
     display: flex;
     flex-direction: row;
     list-style: none;
     opacity: 0.90;
     background-color: #14d9c4;
     height: 45px;
+    justify-items: center;
     align-items: center;
     box-sizing: border-box;
     padding: 20px;
-    gap: 10px;
+    justify-content: space-between;
     color: white;
     font-size: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
 .adaimg {
-    width: 320px;
+    width: 100vw;
     height: 421px;
     position: absolute;
     top: 0;
