@@ -75,22 +75,36 @@ a {
 a:hover {
     color: grey;
 }
-
-.lema {
-    position: absolute;
-    transform: translateY(-25px);
-   
-
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
+.lema {
+    position: relative;
+    transform: translateY(-25px);
+    background-color: white;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    font-weight: 600px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
 
 .equipo-blanco {
     background-color: white;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+
 
 }
 
@@ -100,6 +114,7 @@ a:hover {
     text-transform: uppercase;
     font-size: 24px;
     text-align: center;
+    padding-bottom: 15px;
     
 }
 
@@ -112,7 +127,17 @@ a:hover {
     margin-left: 15px;
     margin-right: 15px;
 }
+.cuadrado{
+    background-color: red;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: -120px;
+    transform: rotate(45deg);
+   
+    
 
+}
 .gris {
     background-color: #b8b8b9;
     padding-top: 30px;
@@ -184,13 +209,17 @@ a:hover {
     font-size: 24px;
     height: 45px;
     font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 60px;
+
 }
 
 .delia {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
 }
 
 .contenedor-delia {
@@ -198,7 +227,8 @@ a:hover {
     width: 180px;
     border-radius: 4px;
     margin-bottom: 15px;
-    display: block;
+    
+    
 
 }
 
@@ -206,13 +236,20 @@ a:hover {
     width: 100%;
 
 }
-
+.personal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .nombre {
     height: 45px;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 
+
 }
+
 
 .parrafo-delia {
     color: #54585a;
@@ -278,3 +315,4 @@ a:hover {
     height: auto;
     padding-bottom: 20px;
 }
+

@@ -1,11 +1,54 @@
 @media all and (min-width:768px) {
 
-
-
-
-
-
-
-
+.lema {
+    
+    display: flex;
+    justify-content: left;
+    color: black;
+    
 
 }
+.lema .texto-lema{
+    color: black;
+    
+}
+.gris {
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.contenedor-delia {
+    width: 205px;
+    height: 205px;
+    background-color: blue;
+
+}
+
+.imagen-delia {
+    width: 100%;
+
+}
+    
+
+.delia {
+    flex-direction: row;
+      
+}
+
+.personal{
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    
+}
+.parrafo-delia{
+   text-align: left; 
+}
+
+.nombre {
+    margin-left: 30px;}
+.rrss {
+    margin-left: 20px;
+}
+}
+  
