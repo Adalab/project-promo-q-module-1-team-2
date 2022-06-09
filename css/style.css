@@ -76,6 +76,13 @@ a:hover {
     color: grey;
 }
 
+.lema {
+    position: absolute;
+    transform: translateY(-25px);
+   
+
+}
+
 .equipo-blanco {
     background-color: white;
     padding-top: 30px;
