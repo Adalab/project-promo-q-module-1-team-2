@@ -82,15 +82,18 @@ a:hover {
     padding-bottom: 30px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .equipo-blanco .team {
+    font-family: 'Rubik', sans-serif;
     color: #14d9c4;
     text-transform: uppercase;
     font-size: 24px;
-    /*poner font-family*/
     text-align: center;
-    /*margin*/
+    
 }
 
 .equipo-blanco .parrafo-equipo {
@@ -98,25 +101,27 @@ a:hover {
     margin-bottom: 30px;
     text-align: center;
     color: #54585a;
-}
-
-.margenes {
+    font-family: 'Open Sans', sans-serif;
     margin-left: 15px;
     margin-right: 15px;
-    padding: 15px;
-
 }
 
 .gris {
     background-color: #b8b8b9;
     padding-top: 30px;
     padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .gris .fortalezas {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .gris .titulo-fortalezas {
@@ -124,17 +129,23 @@ a:hover {
     text-align: center;
     font-size: 22px;
     height: 45px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .gris .parrafo-fortalezas {
     color: #54585a;
     text-align: center;
     margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .gris .debilidades {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .gris .titulo-debilidades {
@@ -142,12 +153,16 @@ a:hover {
     text-align: center;
     font-size: 22px;
     height: 45px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .gris .parrafo-debilidades {
     color: #54585a;
     text-align: center;
     margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .quienes-somos {
@@ -161,12 +176,14 @@ a:hover {
     text-align: center;
     font-size: 24px;
     height: 45px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .delia {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: center;
 }
 
 .contenedor-delia {
@@ -185,6 +202,8 @@ a:hover {
 
 .nombre {
     height: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
 
 }
 
@@ -195,6 +214,8 @@ a:hover {
     padding: 15px;
     text-align: center;
     margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 .rrss li {
