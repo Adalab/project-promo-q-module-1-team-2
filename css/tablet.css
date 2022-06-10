@@ -1,6 +1,47 @@
+
 @media all and (min-width:768px) {
-
-
+    .fixed {
+        display: flex;
+        flex-direction: row;
+        
+        
+        
+    }
+    .cabeza {
+        margin: 0;
+        padding: 0;
+    }
+    .nombre-header {
+        margin: 0;
+        width: 30%;
+        opacity: 0.90;
+        padding-left: 20px;
+        padding-top: 22px;
+        flex-grow: 1;
+        
+    }
+  
+    
+    .menu1 ul {
+        width: 70vw;
+        height: 60px;
+        background-color: var(--color-verde-azul);
+        opacity: 0.90;
+        display: flex;
+        text-align: right;
+        justify-content: flex-end;
+        gap: 60px;
+    }
+              
+    .lema {
+        
+        border: solid red 3px;
+        text-align: left;
+        position: absolute;
+        transform: translate(80px 60px)
+        
+    }
+    
     .gris {
         flex-direction: row;
         padding-left: 30px;
