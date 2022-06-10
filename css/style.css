@@ -23,6 +23,7 @@
 
 .fixed {
     position: fixed;
+    z-index: 100;
 }
 
 .nombre-header {
@@ -63,7 +64,7 @@
 }
 
 .adaimg {
-    width: 100vw;
+    width: 100%;
     height: 421px;
     position: absolute;
     top: 0;
@@ -85,19 +86,18 @@ a:hover {
     color: grey;
 }
 
-/*.lema {
-    height: 50px;
-    position: fixed;
-    top: 500px;
-    background-color: white;
-    padding: 15px;
+.lema {
+    
+    position: relative;
+    transform: translateY(-40px);
+    text-align: center;
     margin-left: 15px;
     margin-right: 15px;
-    text-align: center;
-    font-weight: 300px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;    
-} */
+    padding: 15px;
+    background-color: white;
+    font-weight: 600;
+    
+}
 
 .main{
     display: flex;
@@ -134,7 +134,7 @@ a:hover {
 }
 .cuadrado{
     position: relative;
-    background-color: red;
+    background-color: white;
     top:48px;
     width: 35px;
     height: 35px;
