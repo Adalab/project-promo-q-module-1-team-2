@@ -14,7 +14,7 @@
     .nombre-header {
         margin: 0;
         width: 30%;
-        opacity: 0.90;
+        opacity: 0.95;
         padding-left: 20px;
         padding-top: 22px;
         flex-grow: 1;
@@ -26,7 +26,7 @@
         width: 70vw;
         height: 60px;
         background-color: var(--color-verde-azul);
-        opacity: 0.90;
+        opacity: 0.95;
         display: flex;
         text-align: right;
         justify-content: flex-end;
@@ -35,16 +35,33 @@
               
     
     .lema {
-        border: red solid 3px;
-        text-align: center;
+        opacity: 0.80;
+        text-align: left;
         background-color: white;
-        font-weight: 600;}
-
+        font-weight: 600;
+        position: relative;
+        transform: translateY(-290px);
+        width: 70%;
+        bottom: -247px;
+        margin-left: 45px; 
+        
+    }
+    .texto-lema {
+        color: black;
+        
+    }
+    
+    .equipo-blanco {
+        padding-top: 0px;
+        padding-left: 45px; 
+        padding-right: 45px;
+    }
     .gris {
         flex-direction: row;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 45px; 
+        padding-right: 45px;
     }
+
     .izquierda {
         flex-direction: row; 
     }
@@ -55,6 +72,7 @@
     .contenedor {
         width: 250px;
         height: 250px;
+
     
     }
     .left { 
@@ -67,7 +85,13 @@
         align-items: flex-end;
     
       } 
-      
+    .quienes-somos {
+        padding-left: 45px; 
+        padding-right: 45px;
+        
+    }
+    
+    
     .nombre {
        margin-left: 30px;
        margin-top: 50px;
@@ -85,7 +109,33 @@
         margin-left: 20px;
     }
     
-    
-    
-    
+    .footer .section-copyright {
+        text-align: left;
+        padding-left: 45px;
+              
     }
+
+    .items-footer {
+        position: relative;
+        transform: translateX(350px);
+        top: -30px;
+        padding-right: 45px;
+        text-align: right;
+    }
+        
+    .quienes-footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }         
+
+    
+        
+    .img-footer {
+        position: relative;
+        top: -55px;
+        transform: translateY(-25px);
+        left: -310px;
+              
+    }
+    
+}
