@@ -30,18 +30,16 @@
         display: flex;
         text-align: right;
         justify-content: flex-end;
-        gap: 60px;
+        gap: 30px;
     }
               
-    .lema {
-        
-        border: solid red 3px;
-        text-align: left;
-        position: absolute;
-        transform: translate(80px 60px)
-        
-    }
     
+    .lema {
+        border: red solid 3px;
+        text-align: center;
+        background-color: white;
+        font-weight: 600;}
+
     .gris {
         flex-direction: row;
         padding-left: 30px;
