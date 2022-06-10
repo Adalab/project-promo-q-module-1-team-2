@@ -1,0 +1,21 @@
+@media all and (min-width:1280px) {
+
+    .equipo-blanco .parrafo-equipo {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+        .gris {
+            padding-left: 138px;
+            padding-right: 138px;
+        }
+        
+        
+        .contenedor {
+            width: 278px;
+            height: 278px;
+        }
+        .personal {
+            width: 70%;
+        }
+        
+        }
