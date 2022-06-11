@@ -38,8 +38,9 @@
         background-color: white;
         font-weight: 600;
         position: relative;
-        transform: translateY(-290px);
-        width: 70%;
+        transform: translateY(-316px);
+        width: 450px;
+        line-height: 1.25;
         bottom: -247px;
         margin-left: 45px;
 
