@@ -1,5 +1,72 @@
-.page__header {
+.cabeza {
+  width: 100%;
+  height: 421px;
+  text-transform: uppercase;
+
+}
+
+.fixed {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.nombre-header {
+  background-color: $color-principal;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  padding-top: 20px;
+  font-size: 16px;
+  color: white;
+  opacity: 0.95;
+  box-sizing: border-box;
+  font-family: $font-family-header;
+
+}
+
+.menu1 ul {
+
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  flex-direction: row;
+  list-style: none;
+  opacity: 0.90;
+  background-color: $color-secundario;
+  height: 45px;
+  justify-items: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  justify-content: space-between;
+  color: white;
+  font-size: 15px;
+  font-family: $font-family-header; 
+}
+
+.adaimg {
+
+  width: 100%;
+  height: 421px;
+  position: absolute;
+  top: 0;
+  z-index: -999;
+  justify-content: center;
+}
+
+.img2 {
+  
+  width: 100%;
+  height: 100%;
+  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+a:hover {
+  color: grey;
 }

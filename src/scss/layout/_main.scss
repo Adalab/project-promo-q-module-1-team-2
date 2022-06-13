@@ -1,0 +1,212 @@
+.lema {
+
+    position: relative;
+    transform: translateY(-40px);
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    background-color: white;
+    font-weight: 600;
+    font-family: $font-family;
+    color: black;
+
+}
+
+
+.equipo-blanco {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $color-letra;
+    font-family: $font-family;
+
+
+}
+
+.equipo-blanco .team {
+    font-family: $font-family-header;
+    color: $color-secundario;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+
+.equipo-blanco .parrafo-equipo {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: $color-letra;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 25px;
+}
+
+.cuadrado {
+    position: relative;
+    background-color: white;
+    top: 48px;
+    width: 35px;
+    height: 35px;
+    transform: rotate(45deg);
+
+}
+
+.gris {
+    background-color: $color-fondo;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+
+}
+
+.gris .fortalezas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gris .titulo-fortalezas {
+    color:  $color-principal;
+    text-align: center;
+    font-size: 22px;
+    height: 45px;
+    font-family: $font-family-header;
+}
+
+.gris .parrafo-fortalezas {
+    color: $color-letra;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: $font-family;
+}
+
+.gris .debilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gris .titulo-debilidades {
+    color:  $color-principal;
+    text-align: center;
+    font-size: 22px;
+    height: 45px;
+    font-family: $font-family-header;
+}
+
+.gris .parrafo-debilidades {
+    color:  $color-letra;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: $font-family;
+}
+
+.quienes-somos {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quienes-somos .titulo-quienes-somos {
+    color: $color-principal;
+    text-align: center;
+    font-size: 24px;
+    height: 45px;
+    font-family:  $font-family-header;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 60px;
+
+}
+
+.chica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:  $font-family;
+    color: $color-letra; 
+}
+
+.contenedor {
+    height: 180px;
+    width: 180px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+
+}
+
+.imagen {
+    width: 100%;
+
+}
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre {
+    color: black;
+    height: 45px;
+    font-size: 20px;
+}
+
+.parrafo {
+    color: $color-letra;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+
+.rrss li {
+    display: inline-block;
+    color: $color-principal;
+    margin-left: 10px;
+    margin-bottom: 45px;
+
+}
+
+.rrss li::before {
+    content: "·";
+    margin: 1px;
+    padding: 0.5em 0.5em 0.5em 0;
+}
+
+.rrss .linkedin::before {
+    content: none;
+}
+
+
+.rrss a {
+    text-decoration: none;
+    color: $color-principal;
+}

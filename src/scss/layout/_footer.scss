@@ -1,8 +1,40 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  text-align: center;
+  background-color: white;
+  border-top: 1px solid $color-fondo;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 45px;
+  font-family: $font-family;
+
+}
+
+.copyright {
+  color: $color-fondo;
+  padding-top: 20px;
+
+}
+
+.items-footer {
+  display: inline-block;
+
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-weight: 600;
+
+
+}
+
+.items-footer>li {
+  font-size: 14px;
+  color: $color-letra;
+  line-height: 20px;
+
+}
+
+.img-footer {
+  width: 100px;
+  height: auto;
+  padding-bottom: 20px;
 }
