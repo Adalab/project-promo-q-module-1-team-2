@@ -17,18 +17,29 @@
             background-color: white;
             font-weight: 600;
             position: relative;
-            transform: translateY(-316px);
+            transform: translateY(-335px);
             width: 450px;
             line-height: 1.25;
             bottom: -247px;
             margin-left: 45px;
-    
-        }
+    }
+    @media all and (min-width:1200px) {
+        width: 800px;
+        transform: translateY(-300px);
+        padding-right: 30px;
+        padding-left: 30px;
+        margin-left: 140px;
+
+    }
 
 }
     .texto-lema {
         @media all and (min-width:768px) {
         color: black;
+
+    }
+    @media all and (min-width:1200px) {
+        font-size: 24px;
 
     }
 }
@@ -69,6 +80,11 @@
     margin-left: 15px;
     margin-right: 15px;
     line-height: 25px;
+    @media all and (min-width:1200px) {
+
+            padding-left: 300px;
+            padding-right: 300px;
+        }
 }
 
 .cuadrado {
@@ -96,6 +112,11 @@
         padding-left: 45px;
         padding-right: 45px;
     }
+    @media all and (min-width:1200px) {
+            padding-left: 140px;
+            padding-right: 140px;
+    
+        }
 
 }
 
@@ -161,6 +182,11 @@
             padding-right: 45px;
     
         }
+    @media all and (min-width:1200px) {
+
+            margin-left: 140px;
+            margin-right: 140px;
+            }
     
 }
 
@@ -201,11 +227,14 @@
     border-radius: 4px;
     margin-bottom: 15px;
     @media all and (min-width:768px) {
-        width: 250px;
-        height: 250px;
-
-
+        width: 207px;
+        height: 207px;
     }
+    @media all and (min-width:1200px) {
+
+        width: 278px;
+        height: 278px;
+        }
 
 }
     .left {
@@ -233,6 +262,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media all and (min-width:1200px) {
+            width: 70%;
+        }
 }
 
 .nombre {
