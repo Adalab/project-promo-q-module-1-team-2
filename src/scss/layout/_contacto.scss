@@ -25,6 +25,10 @@
         margin-left: 163px;
         margin-right: 163px;
       }
+    @media all and (min-width: 1200px) {
+        margin-left: 25%;
+        margin-right: 25%;
+      }
   }
   
   .observation {
@@ -39,16 +43,16 @@
   .form{
     width:100%;
 
-        @media all and (min-width: 1200px) {
-            margin-left: 300px;
-            margin-right: 300px;
-            width: 602px;
+    @media all and (min-width: 1200px) {
+      margin-left: 25%;
+      margin-right: 25%;
+      width: 600px;
           }
   }
 
 .div{
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
   justify-content: start;
   @media all and (min-width: 768px){
     margin-left: 163px;
@@ -57,16 +61,18 @@
     @media all and (min-width: 1200px) {
    margin-left: 0px;
    margin-right: 0px;
+
+   
 }
 }
 .mailTel {
   @media all and (min-width: 1200px){
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between ;
-   box-sizing: content-box;
-   width: 602px;
-   gap: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between ;
+  box-sizing: content-box;
+  width: 602px;
+  gap: 45px;
   }
   
 }
@@ -86,7 +92,7 @@
 }
 
  .label{
- text-align: left;
+  text-align: left;
   font-size: 14px;
   font-family:$font-family ;
   margin-top: 13px;
@@ -110,13 +116,15 @@
   color: white;
   text-transform: uppercase;
   border-radius: 4px;
-    font-family: $font-family ;
+  font-family: $font-family ;
     @media all and (min-width: 768px) {
-      width: 206px;
-        margin-left: 390px;
+        width: 206px;
+        margin-left: 345px;
         margin-right: 163px;
       }
-     @media all and (min-width: 1200px) {
-      width: 278px;
+    @media all and (min-width: 1200px) {
+        width: 278px;
+        margin-left: 325px;
+        margin-right: 300px;
+      }
  }
-}

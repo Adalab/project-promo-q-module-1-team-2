@@ -1,62 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/contacto.css" />
+    <title>Contacto</title>
+  </head>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./assets/css/contacto.css">
-  <title>Contacto</title>
-</head>
+  <body>
+    <include
+      src="./partials/header.html"
+      SrcImage="./assets/images/Fondo2.png"
+    ></include>
+    <main class="main">
+      <h1 class="main-title">Contacto</h1>
+      <p class="main-paragraph">
+        Si estás interesada en conocer nuestros poderes maquetadores... ¡No
+        dudes en contactarnos!
+      </p>
 
-<body>
-  <include src="./partials/header.html"></include>
-  <main class="main">
-    <h1 class="main-title">Contacto</h1>
-    <p class="main-paragraph">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nuncrutrum
-      ullamcorper mauris,vel convallis metus eleifend in.
-    </p>
+      <p class="observation">
+        Todos los campos marcados con <span class="color-aqua">*</span> son
+        obligatorios.
+      </p>
 
-    <p class="observation">
-      Todos los campos marcados con <span class="color-aqua">*</span> son
-      obligatorios.
-    </p>
-
-
-    <form class="form" method="post" action="https://adalab-server-form.herokuapp.com" method="post">
-
-      <div class="div">
-        <label class="label" for="Name">Nombre completo <span class="color-aqua">*</span></label>
-        <input class="caja" placeholder="Nombre..." id="Name" type="text" name="Name" required />
-      </div>
-      <div class="mailTel">
-        <div class="div mail">
-          <label class="label" for="emailAddress">Email <span class="color-aqua">*</span></label>
-          <input class="caja" placeholder="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress"
-            required />
+      <form
+        class="form"
+        method="post"
+        action="https://adalab-server-form.herokuapp.com"
+        method="post"
+      >
+        <div class="div">
+          <label class="label" for="Name"
+            >Nombre completo <span class="color-aqua">*</span></label
+          >
+          <input
+            class="caja"
+            placeholder="Nombre..."
+            id="Name"
+            type="text"
+            name="Name"
+            required
+          />
         </div>
-        <div class="div tel">
-          <label class="label" for="telephone">Teléfono</label>
-          <input class="caja" placeholder="Ej: 12345678" id="telephone" type="tel" name="telephone" />
+        <div class="mailTel">
+          <div class="div mail">
+            <label class="label" for="emailAddress"
+              >Email <span class="color-aqua">*</span></label
+            >
+            <input
+              class="caja"
+              placeholder="nombre.apellidos@mail.com"
+              id="emailAddress"
+              type="email"
+              name="emailAddress"
+              required
+            />
+          </div>
+          <div class="div tel">
+            <label class="label" for="telephone">Teléfono</label>
+            <input
+              class="caja"
+              placeholder="Ej: 12345678"
+              id="telephone"
+              type="tel"
+              name="telephone"
+            />
+          </div>
         </div>
-      </div>
-      <div class="div">
-        <label class="label" for="comments">Mensaje <span class="color-aqua">*</span></label>
+        <div class="div">
+          <label class="label" for="comments"
+            >Mensaje <span class="color-aqua">*</span></label
+          >
 
-        <textarea class="caja" placeholder="¿Qué necesitas?" id="comments" name="comments" rows="4" cols="80"
-          required></textarea>
-      </div>
-      <input class="boton" type="submit" value="Enviar" />
+          <textarea
+            class="caja"
+            placeholder="¿Qué necesitas?"
+            id="comments"
+            name="comments"
+            rows="4"
+            cols="80"
+            required
+          ></textarea>
+        </div>
+        <input class="boton" type="submit" value="Enviar" />
+      </form>
+    </main>
 
-    </form>
-
-  </main>
-
-  <include src="./partials/footer.html"></include>
-</body>
-
+    <include src="./partials/footer.html"></include>
+  </body>
 </html>
