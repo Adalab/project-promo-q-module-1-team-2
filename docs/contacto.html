@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="./css/reset.css" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
@@ -13,37 +13,38 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/contacto-style.css" />
-    <link rel="stylesheet" href="./css/style-tablet-contacto.css" />
+    <link rel="stylesheet" href="./assets/css/contacto.css" />
     <title>Contacto</title>
   </head>
 
   <body>
-    <header class="head">
-      <div class="nombre-header">
-        <h1 class="titulo">Adavengers</h1>
-      </div>
-      <nav class="menu1">
-        <ul>
-          <li><a href="./index.html#equipo">Equipo</a></li>
-          <li>
-            <a href="./index.html#quienes">Quienes somos</a>
-          </li>
-          <li id="contacto">
-            <a href="./contacto.html" target="_blank">Contacto</a>
-          </li>
-        </ul>
-      </nav>
+    <header class="cabeza">
+      <section class="fixed">
+        <div class="nombre-header">
+          <h1>Adavengers</h1>
+        </div>
+        <nav class="menu1">
+          <ul>
+            <li><a href="./index.html#equipo">Equipo</a></li>
+            <li>
+              <a href="./index.html#quienes">Quienes somos</a>
+            </li>
+            <li id="contacto">
+              <a href="./contacto.html" target="_blank">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
       <div class="adaimg">
-        <img src="./Images/Fondo2.png" alt="adavengers" class="img2" />
+        <img src="./assets/images/Fondo2.png" alt="adavengers" class="img2" />
       </div>
     </header>
+
     <main class="main">
       <h1 class="main-title">Contacto</h1>
       <p class="main-paragraph">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nuncrutrum
-        ullamcorper mauris,vel convallis metus eleifend in.
+        Si estás interesada en conocer nuestros poderes maquetadores... ¡No
+        dudes en contactarnos!
       </p>
 
       <p class="observation">
@@ -51,29 +52,75 @@
         obligatorios.
       </p>
 
-      <!--Formulario: Nombre completo* Email* Teléfono Mensaje    -->
-      <p>
-        FORMULARIO Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        Mollitia aut deserunt quas ipsam? Omnis a possimus eligendi quod
-        nesciunt perspiciatis, exercitationem, saepe explicabo assumenda eos
-        ipsa illum aliquid quo quasi.Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Mollitia aut deserunt quas ipsam? Omnis a possimus
-        eligendi quod nesciunt perspiciatis, exercitationem, saepe explicabo
-        assumenda eos ipsa illum aliquid quo quasi.Lorem, ipsum dolor sit amet
-        consectetur adipisicing elit. Mollitia aut deserunt quas ipsam? Omnis a
-        possimus eligendi quod nesciunt perspiciatis, exercitationem, saepe
-        explicabo assumenda eos ipsa illum aliquid quo quasi.
-      </p>
+      <form
+        class="form"
+        method="post"
+        action="https://adalab-server-form.herokuapp.com"
+        method="post"
+      >
+        <div class="div">
+          <label class="label" for="Name"
+            >Nombre completo <span class="color-aqua">*</span></label
+          >
+          <input
+            class="caja"
+            placeholder="Nombre..."
+            id="Name"
+            type="text"
+            name="Name"
+            required
+          />
+        </div>
+        <div class="mailTel">
+          <div class="div mail">
+            <label class="label" for="emailAddress"
+              >Email <span class="color-aqua">*</span></label
+            >
+            <input
+              class="caja"
+              placeholder="nombre.apellidos@mail.com"
+              id="emailAddress"
+              type="email"
+              name="emailAddress"
+              required
+            />
+          </div>
+          <div class="div tel">
+            <label class="label" for="telephone">Teléfono</label>
+            <input
+              class="caja"
+              placeholder="Ej: 12345678"
+              id="telephone"
+              type="tel"
+              name="telephone"
+            />
+          </div>
+        </div>
+        <div class="div">
+          <label class="label" for="comments"
+            >Mensaje <span class="color-aqua">*</span></label
+          >
 
-      <button class="button-send">Enviar</button>
+          <textarea
+            class="caja"
+            placeholder="¿Qué necesitas?"
+            id="comments"
+            name="comments"
+            rows="4"
+            cols="80"
+            required
+          ></textarea>
+        </div>
+        <input class="boton" type="submit" value="Enviar" />
+      </form>
     </main>
 
     <footer class="footer">
       <section class="section-copyright">
-        <p class="copyright">Nombre del grupo © 2018</p>
+        <small class="copyright">Adavengers © 2022</small>
       </section>
-      <section>
-        <nav>
+      <section class="menu-footer">
+        <nav class="nav-footer">
           <ul class="items-footer">
             <li><a href="./index.html#equipo"></a> EQUIPO</li>
             <li class="quienes-footer">
@@ -83,11 +130,14 @@
           </ul>
         </nav>
       </section>
-      <img
-        class="img-footer"
-        src="./Images/logo-adalab.svg"
-        alt="logo-adalab"
-      />
+      <div class="contenedor-logo">
+        <img
+          class="img-footer"
+          src="./assets/images/logo-adalab.svg"
+          alt="logo-adalab"
+        />
+      </div>
     </footer>
+
   </body>
 </html>
