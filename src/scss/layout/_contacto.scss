@@ -20,6 +20,11 @@
     margin: 0 auto 30px auto;
     max-width: 90%;
     line-height: 24px;
+
+    @media all and (min-width: 768px) {
+        margin-left: 163px;
+        margin-right: 163px;
+      }
   }
   
   .observation {
@@ -34,31 +39,66 @@
   .form{
     width:100%;
 
+        @media all and (min-width: 1200px) {
+            margin-left: 300px;
+            margin-right: 300px;
+            width: 602px;
+          }
   }
 
 .div{
    display: flex;
    flex-direction: column;
-  
-   justify-content: start;
-  
-   
+  justify-content: start;
+  @media all and (min-width: 768px){
+    margin-left: 163px;
+    margin-right: 163px;
+  }
+    @media all and (min-width: 1200px) {
+   margin-left: 0px;
+   margin-right: 0px;
 }
+}
+.mailTel {
+  @media all and (min-width: 1200px){
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+   box-sizing: content-box;
+   width: 602px;
+   gap: 45px;
+  }
+  
+}
+.mail {
+  @media all and (min-width: 1200px) {
  
+  width: 400px;
+  }
+
+}
+.tel {
+  @media all and (min-width: 1200px) {
+ 
+
+  }
+
+}
+
  .label{
  text-align: left;
   font-size: 14px;
   font-family:$font-family ;
   margin-top: 13px;
   margin-bottom: 7px;
+
  
  }
  .caja{
   padding:12px ;
   font-family: $font-family ;
- 
 
- }
+}
 
  .boton{
   width: 100%;
@@ -71,4 +111,12 @@
   text-transform: uppercase;
   border-radius: 4px;
     font-family: $font-family ;
+    @media all and (min-width: 768px) {
+      width: 206px;
+        margin-left: 390px;
+        margin-right: 163px;
+      }
+     @media all and (min-width: 1200px) {
+      width: 278px;
  }
+}
