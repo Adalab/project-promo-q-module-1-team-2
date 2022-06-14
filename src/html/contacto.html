@@ -27,25 +27,29 @@
     </p>
 
 
-    <form method="post" action="https://adalab-server-form.herokuapp.com" method="post">
-      <div>
-        <label for="Name">Nombre completo <span class="color-aqua">*</span></label>
-        <input placeholder="Nombre..." id="Name" type="text" name="Name" required />
-      </div>
-      <div>
-        <label for="emailAddress">Email <span class="color-aqua">*</span></label>
-        <input placeholder="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress" required />
-      </div>
-      <div>
-        <label for="telephone">Teléfono</label>
-        <input placeholder="Ej: 12345678" id="telephone" type="tel" name="telephone" />
-      </div>
-      <div>
-        <label for="comments">Mensaje <span class="color-aqua">*</span></label>
+    <form class="form" method="post" action="https://adalab-server-form.herokuapp.com" method="post">
 
-        <textarea placeholder="¿Qué necesitas?" id="comments" name="comments" rows="8" cols="80" required></textarea>
+      <div class="div">
+        <label class="label" for="Name">Nombre completo <span class="color-aqua">*</span></label>
+        <input class="caja" placeholder="Nombre..." id="Name" type="text" name="Name" required />
       </div>
-      <input type="submit" value="Enviar" />
+      <div class="div">
+        <label class="label" for="emailAddress">Email <span class="color-aqua">*</span></label>
+        <input class="caja" placeholder="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress"
+          required />
+      </div>
+      <div class="div">
+        <label class="label" for="telephone">Teléfono</label>
+        <input class="caja" placeholder="Ej: 12345678" id="telephone" type="tel" name="telephone" />
+      </div>
+      <div class="div">
+        <label class="label" for="comments">Mensaje <span class="color-aqua">*</span></label>
+
+        <textarea class="caja" placeholder="¿Qué necesitas?" id="comments" name="comments" rows="4" cols="80"
+          required></textarea>
+      </div>
+      <input class="boton" type="submit" value="Enviar" />
+
     </form>
 
   </main>
