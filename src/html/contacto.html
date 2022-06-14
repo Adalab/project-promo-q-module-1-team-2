@@ -1,93 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/contacto-style.css" />
-    <link rel="stylesheet" href="./css/style-tablet-contacto.css" />
-    <title>Contacto</title>
-  </head>
 
-  <body>
-    <header class="head">
-      <div class="nombre-header">
-        <h1 class="titulo">Adavengers</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/contacto.css">
+  <title>Contacto</title>
+</head>
+
+<body>
+  <include src="./partials/header.html"></include>
+  <main class="main">
+    <h1 class="main-title">Contacto</h1>
+    <p class="main-paragraph">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nuncrutrum
+      ullamcorper mauris,vel convallis metus eleifend in.
+    </p>
+
+    <p class="observation">
+      Todos los campos marcados con <span class="color-aqua">*</span> son
+      obligatorios.
+    </p>
+
+
+    <form method="post" action="https://adalab-server-form.herokuapp.com" method="post">
+      <div>
+        <label for="Name">Nombre completo <span class="color-aqua">*</span></label>
+        <input placeholder="Nombre..." id="Name" type="text" name="Name" required />
       </div>
-      <nav class="menu1">
-        <ul>
-          <li><a href="./index.html#equipo">Equipo</a></li>
-          <li>
-            <a href="./index.html#quienes">Quienes somos</a>
-          </li>
-          <li id="contacto">
-            <a href="./contacto.html" target="_blank">Contacto</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="adaimg">
-        <img src="./Images/Fondo2.png" alt="adavengers" class="img2" />
+      <div>
+        <label for="emailAddress">Email <span class="color-aqua">*</span></label>
+        <input placeholder="nombre.apellidos@mail.com" id="emailAddress" type="email" name="emailAddress" required />
       </div>
-    </header>
-    <main class="main">
-      <h1 class="main-title">Contacto</h1>
-      <p class="main-paragraph">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nuncrutrum
-        ullamcorper mauris,vel convallis metus eleifend in.
-      </p>
+      <div>
+        <label for="telephone">Teléfono</label>
+        <input placeholder="Ej: 12345678" id="telephone" type="tel" name="telephone" />
+      </div>
+      <div>
+        <label for="comments">Mensaje <span class="color-aqua">*</span></label>
 
-      <p class="observation">
-        Todos los campos marcados con <span class="color-aqua">*</span> son
-        obligatorios.
-      </p>
+        <textarea placeholder="¿Qué necesitas?" id="comments" name="comments" rows="8" cols="80" required></textarea>
+      </div>
+      <input type="submit" value="Enviar" />
+    </form>
 
-      <!--Formulario: Nombre completo* Email* Teléfono Mensaje    -->
-      <p>
-        FORMULARIO Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        Mollitia aut deserunt quas ipsam? Omnis a possimus eligendi quod
-        nesciunt perspiciatis, exercitationem, saepe explicabo assumenda eos
-        ipsa illum aliquid quo quasi.Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Mollitia aut deserunt quas ipsam? Omnis a possimus
-        eligendi quod nesciunt perspiciatis, exercitationem, saepe explicabo
-        assumenda eos ipsa illum aliquid quo quasi.Lorem, ipsum dolor sit amet
-        consectetur adipisicing elit. Mollitia aut deserunt quas ipsam? Omnis a
-        possimus eligendi quod nesciunt perspiciatis, exercitationem, saepe
-        explicabo assumenda eos ipsa illum aliquid quo quasi.
-      </p>
+  </main>
 
-      <button class="button-send">Enviar</button>
-    </main>
+  <include src="./partials/footer.html"></include>
+</body>
 
-    <footer class="footer">
-      <section class="section-copyright">
-        <p class="copyright">Nombre del grupo © 2018</p>
-      </section>
-      <section>
-        <nav>
-          <ul class="items-footer">
-            <li><a href="./index.html#equipo"></a> EQUIPO</li>
-            <li class="quienes-footer">
-              <a href="./index.html#quienes"></a> QUIÉNES SOMOS
-            </li>
-            <li><a href="./index.html#contacto"></a> CONTACTO</li>
-          </ul>
-        </nav>
-      </section>
-      <img
-        class="img-footer"
-        src="./Images/logo-adalab.svg"
-        alt="logo-adalab"
-      />
-    </footer>
-  </body>
 </html>
